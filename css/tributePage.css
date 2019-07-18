@@ -1,0 +1,52 @@
+body{
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #000;
+  width: 100%;
+  height: 175px;
+  position: relative;
+}
+.heading {
+  color: #fff;
+  font-size: 80px;
+  padding-left: 24px;
+  display: inline-block;
+  font-family: 'Pinyon Script', cursive;
+}
+.menu {
+  color: #fff;
+  width: auto;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.menu a {
+  color: #fff;
+  font-size: 24px;
+}
+#quote {
+  width: 28%;
+    position: absolute;
+    color: #000;
+    top: 15%;
+    right: 0;
+    font-size: 48px;
+    font-family: 'Pinyon Script', cursive;
+    padding: 32px;
+    box-sizing: border-box;
+}
+#header-img {
+  width: 100%;
+}
+#intro{
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+.link {
+    float: left;
+    margin: 16px;
+}
