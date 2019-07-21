@@ -12,16 +12,15 @@ header {
   position: sticky;
   top: 0px;
   z-index: 1;
+  color: #2edb10d6;
 }
 .heading {
-  color: #fff;
   font-size: 75px;
   padding-left: 24px;
   display: inline-block;
   font-family: 'Pinyon Script', cursive;
 }
 .menu {
-  color: #fff;
   width: auto;
   display: inline-block;
   position: absolute;
@@ -29,39 +28,59 @@ header {
   bottom: 0;
 }
 .menu a {
-  color: #fff;
   font-size: 24px;
+  color: #2edb10d6;
 }
-#quote {
-  width: 28%;
-    position: absolute;
-    color: #000;
-    top: 15%;
-    right: 0;
-    font-size: 48px;
+#img-caption {
+    width: 60%;
+    font-size: 36px;
     font-family: 'Pinyon Script', cursive;
     padding: 32px;
-    box-sizing: border-box;
+    margin: auto;
 }
-#header-img {
-  width: 100%;
+#image {
+  max-width: 100%;
+  margin: auto;
 }
-#intro{
+#img-div {
   width: 100%;
   position: relative;
+  display: inline-grid;
 }
 .link {
     float: left;
     margin: 16px;
 }
-#about {
+section {
   display: flex;
   flex-direction: row;
+  margin: 24px;
 }
 .about-header {
   font-size: 36px;
   width: 30%;
+  color: #2edb10d6;
 }
 .description {
   width: 70%;
+}
+.description a {
+  color: #fff;
+}
+.description ul {
+  margin: 0;
+  padding: 0;
+}
+
+#Awards ul{
+  padding-inline-start: 14px;
+}
+#Refrences li {
+  list-style: none;
+}
+footer {
+  border-top: 1px solid #fff;
+  margin: 12px;
+  padding: 12px;
+  text-align: center;
 }
